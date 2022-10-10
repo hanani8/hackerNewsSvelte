@@ -1,5 +1,3 @@
-import { error } from '@sveltejs/kit';
-
 export async function load({ url, fetch }) {
 	const params = url.searchParams;
 	const id = params.get('id');
