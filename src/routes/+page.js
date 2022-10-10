@@ -1,3 +1,5 @@
+export const prerender = true;
+
 export async function load({ fetch }) {
 	const url = 'https://hacker-news.firebaseio.com/v0/topstories.json';
 	const FetchTopStories = await fetch(url);

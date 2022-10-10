@@ -26,7 +26,7 @@
 		<td>
 			<span class="font-normal text-xs opacity-50">
 				{story.score} points by
-				<a href="/user?id={story.by}" class="hover:cursor-pointer hover:underline">{story.by}</a> at {story.time}
+				<span class="hover:cursor-pointer hover:underline">{story.by}</span> at {story.time}
 				| hide | past | favorite |
 				<a href="/item?id={story.id}" class="hover:cursor-pointer hover:underline"
 					>{story.descendants} comments.</a

@@ -3,9 +3,7 @@
 	 * @type {{ top: Array<Object> }}
 	 */
 	export let data;
-
 </script>
-
 
 <table>
 	<tbody>
@@ -30,7 +28,7 @@
 				<td>
 					<span class="font-normal text-xs opacity-50">
 						{story.score} points by
-						<a href="/user?id={story.by}" class="hover:cursor-pointer hover:underline">{story.by}</a
+						<span>class="hover:cursor-pointer hover:underline">{story.by}</span
 						>
 						at {story.time} |
 						<a href="/item?id={story.id}" class="hover:cursor-pointer hover:underline"

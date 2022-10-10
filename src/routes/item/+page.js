@@ -1,3 +1,5 @@
+export const prerener = true;
+
 export async function load({ url, fetch }) {
 	const params = url.searchParams;
 	const id = params.get('id');

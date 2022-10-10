@@ -6,13 +6,13 @@
 	<nav class="bg-orange-500 h-6  flex flex-row gap-7">
 		<p class="font-semibold text-sm pl-3">Hacker News</p>
 		<p class="font-bold text-sm">
-			Top
+			<a href="/">Top</a>
 		</p>
 		<p class="font-bold text-sm">
-			<a href="/ask">Ask</a>
+			Ask
 		</p>
 		<p class="font-bold text-sm">
-			<a href="/show">Show</a>
+			Show
 		</p>
 	</nav>
 
