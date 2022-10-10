@@ -1,4 +1,4 @@
-export const prerener = true;
+export const prerender = true;
 
 export async function load({ url, fetch }) {
 	const params = url.searchParams;
